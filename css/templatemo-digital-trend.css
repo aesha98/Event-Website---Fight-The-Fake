@@ -1,8 +1,6 @@
 /*
 
-DIGITAL TREND
-
-https://templatemo.com/tm-538-digital-trend
+AESHA98 GITHUB
 
 */
   
@@ -31,14 +29,14 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   :root {
-    --primary-color:        #03193e;
-    --secondary-color:      #f1c111;
+    --primary-color:        #dc3545;
+    --secondary-color:      #f8e119;
     --white-color:          #ffffff;
     --dark-color:           #171819;
-    --project-bg:           #f0f8ff;
-    --menu-bg:             #041c46;
+    --project-bg:           #e7e8ea;
+    --menu-bg:             #dc3545;
 
-    --title-color:          #15141a;
+    --title-color:          #f8e119;
     --gray-color:           #909090;
     --link-color:           #404040;
     --p-color:              #666262;
@@ -107,7 +105,7 @@ https://templatemo.com/tm-538-digital-trend
   b, 
   strong {
     letter-spacing: 0;
-    color: var(--secondary-color);
+    color: var(--title-color);
   }
 
 
@@ -140,6 +138,27 @@ https://templatemo.com/tm-538-digital-trend
 
 
   /* BUTTON */
+  .next-btn
+  {
+    background: transparent;
+    border: 2px solid var(--dark-color);
+    border-radius: var(--border-radius-large);
+    margin: 20px;
+    padding: 12px 40px 14px 40px;
+    color: var(--dark-color);
+    font-family: var(--title-font-family);
+    font-size: var(--p-font-size);
+    white-space: nowrap;
+  }
+
+  .next-btn.btn-bg
+  {
+    background: var(--white-color);
+    color: var(--primary-color);
+    border-color: transparent;
+	transition: all .3s ease;
+  }
+
   .custom-btn {
     background: transparent;
     border: 2px solid var(--dark-color);
@@ -208,6 +227,7 @@ https://templatemo.com/tm-538-digital-trend
     color: var(--link-color);
     font-weight: normal;
     text-decoration: none;
+    font-family: var(--title-font-family);
   }
 
   a:hover, 
@@ -233,6 +253,12 @@ https://templatemo.com/tm-538-digital-trend
   .google-map iframe {
     display: block;
     width: 100%;
+  }
+
+  .article
+  {
+    width: 100%;
+    height: auto;
   }
 
 
@@ -356,8 +382,21 @@ https://templatemo.com/tm-538-digital-trend
     top: 8px;
   }
 
+  /*---------------------------------------
+     NEXT PAGE              
+  -----------------------------------------*/
+  .nextpage
+  {
+    position: relative;
+    padding: 3em 0;
+    overflow: hidden;
+  }
 
+  .nextpage-bg
+  {
+    background: linear-gradient(120deg, var(--primary-color) 75%, #f8e119 30%);
 
+  }
   /*---------------------------------------
      HERO              
   -----------------------------------------*/
@@ -369,7 +408,11 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   .hero-bg {
-    background: linear-gradient(150deg, var(--primary-color) 64%, #d09d06 30%);
+    background: linear-gradient(90deg, var(--primary-color) 64%, #f8e119 30%);
+  }
+
+  .cool-bg {
+    background: linear-gradient(90deg, #f8e119  20%, var(--primary-color) 60%);
   }
 
   .hero-image {
@@ -384,18 +427,21 @@ https://templatemo.com/tm-538-digital-trend
   -----------------------------------------*/
 
   .project {
-    background: var(--project-bg);
+    background: linear-gradient(90deg, var(--primary-color) 70%, #f8e119 30%);
   }
 
-  .project-wrapper {
+  .project-wrapper 
+  {
     position: relative;
   }
 
-  .project-wrapper img {
+  .project-wrapper img 
+  {
     border-radius: var(--border-radius-small);
   }
 
-  .project-info {
+  .project-info 
+  {
     background: var(--white-color);
     border-radius: var(--border-radius-small);
     position: absolute;
@@ -494,6 +540,8 @@ https://templatemo.com/tm-538-digital-trend
   .about {
     position: relative;
     overflow: hidden;
+    display: block;
+
   }
 
   .about-image img {
