@@ -6,6 +6,6 @@ Simple event website with info and facts regarding dietary supplements.
 
 Developed with HTML5, Boostrap, Javascript and CSS.
 
-Status : succesfully deployed.
+Status : succesfully deployed. 17 Jan 2022.
 
 Check it out : http://dietarysupplementmahsa.info/
