@@ -5,3 +5,7 @@ A responsive event website project for a group of student(client) that studied a
 Simple event website with info and facts regarding dietary supplements.
 
 Developed with HTML5, Boostrap, Javascript and CSS.
+
+Status : succesfully deployed.
+
+Check it out : http://dietarysupplementmahsa.info/
